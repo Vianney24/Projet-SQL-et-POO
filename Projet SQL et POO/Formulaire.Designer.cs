@@ -57,7 +57,7 @@
             // 
             // textBoxNom
             // 
-            this.textBoxNom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textBoxNom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.textBoxNom.Location = new System.Drawing.Point(194, 104);
             this.textBoxNom.Multiline = true;
             this.textBoxNom.Name = "textBoxNom";
@@ -68,6 +68,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(101, 95);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 38);
@@ -79,6 +80,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(101, 147);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(70, 38);
@@ -89,7 +91,7 @@
             // 
             // textBoxPrenom
             // 
-            this.textBoxPrenom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textBoxPrenom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.textBoxPrenom.Location = new System.Drawing.Point(194, 156);
             this.textBoxPrenom.Multiline = true;
             this.textBoxPrenom.Name = "textBoxPrenom";
@@ -109,21 +111,23 @@
             // 
             // Valider
             // 
-            this.Valider.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
+            this.Valider.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.Valider.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Valider.ForeColor = System.Drawing.Color.Black;
-            this.Valider.Location = new System.Drawing.Point(423, 445);
+            this.Valider.Location = new System.Drawing.Point(481, 445);
             this.Valider.Name = "Valider";
             this.Valider.Size = new System.Drawing.Size(190, 46);
             this.Valider.TabIndex = 5;
-            this.Valider.Text = "Valider";
+            this.Valider.Text = "Ajouter";
             this.Valider.UseVisualStyleBackColor = false;
             this.Valider.Click += new System.EventHandler(this.btnValider_Click);
             // 
             // Annuler
             // 
-            this.Annuler.BackColor = System.Drawing.Color.Tomato;
-            this.Annuler.ForeColor = System.Drawing.Color.Black;
-            this.Annuler.Location = new System.Drawing.Point(308, 445);
+            this.Annuler.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(32)))), ((int)(((byte)(53)))));
+            this.Annuler.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Annuler.ForeColor = System.Drawing.Color.White;
+            this.Annuler.Location = new System.Drawing.Point(366, 445);
             this.Annuler.Name = "Annuler";
             this.Annuler.Size = new System.Drawing.Size(92, 46);
             this.Annuler.TabIndex = 6;
@@ -133,7 +137,7 @@
             // 
             // textBoxAdresseL1
             // 
-            this.textBoxAdresseL1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textBoxAdresseL1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.textBoxAdresseL1.Location = new System.Drawing.Point(194, 202);
             this.textBoxAdresseL1.Multiline = true;
             this.textBoxAdresseL1.Name = "textBoxAdresseL1";
@@ -143,7 +147,7 @@
             // 
             // textBoxAdresseL2
             // 
-            this.textBoxAdresseL2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textBoxAdresseL2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.textBoxAdresseL2.Location = new System.Drawing.Point(194, 247);
             this.textBoxAdresseL2.Multiline = true;
             this.textBoxAdresseL2.Name = "textBoxAdresseL2";
@@ -153,7 +157,7 @@
             // 
             // textBoxCP
             // 
-            this.textBoxCP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textBoxCP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.textBoxCP.Location = new System.Drawing.Point(194, 295);
             this.textBoxCP.Multiline = true;
             this.textBoxCP.Name = "textBoxCP";
@@ -164,6 +168,7 @@
             // Adresse_l1
             // 
             this.Adresse_l1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Adresse_l1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Adresse_l1.Location = new System.Drawing.Point(76, 193);
             this.Adresse_l1.Name = "Adresse_l1";
             this.Adresse_l1.Size = new System.Drawing.Size(95, 38);
@@ -174,6 +179,7 @@
             // Adresse_l2
             // 
             this.Adresse_l2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Adresse_l2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Adresse_l2.Location = new System.Drawing.Point(80, 238);
             this.Adresse_l2.Name = "Adresse_l2";
             this.Adresse_l2.Size = new System.Drawing.Size(91, 38);
@@ -184,6 +190,7 @@
             // Code_Postal
             // 
             this.Code_Postal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Code_Postal.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Code_Postal.Location = new System.Drawing.Point(68, 286);
             this.Code_Postal.Name = "Code_Postal";
             this.Code_Postal.Size = new System.Drawing.Size(103, 38);
@@ -194,6 +201,7 @@
             // Ville
             // 
             this.Ville.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ville.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Ville.Location = new System.Drawing.Point(101, 337);
             this.Ville.Name = "Ville";
             this.Ville.Size = new System.Drawing.Size(70, 38);
@@ -203,7 +211,7 @@
             // 
             // textBoxVille
             // 
-            this.textBoxVille.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textBoxVille.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.textBoxVille.Location = new System.Drawing.Point(194, 346);
             this.textBoxVille.Multiline = true;
             this.textBoxVille.Name = "textBoxVille";
@@ -213,7 +221,7 @@
             // 
             // textBoxTel
             // 
-            this.textBoxTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.textBoxTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.textBoxTel.Location = new System.Drawing.Point(587, 159);
             this.textBoxTel.Multiline = true;
             this.textBoxTel.Name = "textBoxTel";
@@ -224,6 +232,7 @@
             // Date_De_Naissance
             // 
             this.Date_De_Naissance.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Date_De_Naissance.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Date_De_Naissance.Location = new System.Drawing.Point(431, 98);
             this.Date_De_Naissance.Name = "Date_De_Naissance";
             this.Date_De_Naissance.Size = new System.Drawing.Size(150, 38);
@@ -235,6 +244,7 @@
             // Telephone
             // 
             this.Telephone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Telephone.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Telephone.Location = new System.Drawing.Point(450, 150);
             this.Telephone.Name = "Telephone";
             this.Telephone.Size = new System.Drawing.Size(102, 38);
@@ -244,11 +254,11 @@
             // 
             // dateTimePickerDDN
             // 
-            this.dateTimePickerDDN.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
-            this.dateTimePickerDDN.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
-            this.dateTimePickerDDN.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
-            this.dateTimePickerDDN.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
-            this.dateTimePickerDDN.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
+            this.dateTimePickerDDN.CalendarForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.dateTimePickerDDN.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.dateTimePickerDDN.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.dateTimePickerDDN.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.dateTimePickerDDN.CalendarTrailingForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.dateTimePickerDDN.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePickerDDN.Location = new System.Drawing.Point(587, 108);
             this.dateTimePickerDDN.Name = "dateTimePickerDDN";
@@ -263,7 +273,8 @@
             // LblTitreAjout
             // 
             this.LblTitreAjout.AutoSize = true;
-            this.LblTitreAjout.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTitreAjout.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTitreAjout.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.LblTitreAjout.Location = new System.Drawing.Point(395, 37);
             this.LblTitreAjout.Name = "LblTitreAjout";
             this.LblTitreAjout.Size = new System.Drawing.Size(208, 24);
@@ -274,7 +285,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(138)))), ((int)(((byte)(168)))));
             this.ClientSize = new System.Drawing.Size(1060, 503);
             this.Controls.Add(this.LblTitreAjout);
             this.Controls.Add(this.dateTimePickerDDN);
