@@ -95,5 +95,14 @@ namespace Projet_SQL_et_POO
         {
             Close();
         }
-    }
+
+		private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+		{
+			if(e.ColumnIndex == 9)
+			{
+				Modifier Mod = new Modifier();
+				Mod.Show();
+			}
+		}
+	}
 }
