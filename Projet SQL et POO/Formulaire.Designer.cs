@@ -56,7 +56,7 @@
             // 
             // textBoxNom
             // 
-            this.textBoxNom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
+            this.textBoxNom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBoxNom.Location = new System.Drawing.Point(194, 104);
             this.textBoxNom.Multiline = true;
             this.textBoxNom.Name = "textBoxNom";
@@ -88,7 +88,7 @@
             // 
             // textBoxPrenom
             // 
-            this.textBoxPrenom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
+            this.textBoxPrenom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBoxPrenom.Location = new System.Drawing.Point(194, 156);
             this.textBoxPrenom.Multiline = true;
             this.textBoxPrenom.Name = "textBoxPrenom";
@@ -132,7 +132,7 @@
             // 
             // textBoxAdresseL1
             // 
-            this.textBoxAdresseL1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
+            this.textBoxAdresseL1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBoxAdresseL1.Location = new System.Drawing.Point(194, 202);
             this.textBoxAdresseL1.Multiline = true;
             this.textBoxAdresseL1.Name = "textBoxAdresseL1";
@@ -142,7 +142,7 @@
             // 
             // textBoxAdresseL2
             // 
-            this.textBoxAdresseL2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
+            this.textBoxAdresseL2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBoxAdresseL2.Location = new System.Drawing.Point(194, 247);
             this.textBoxAdresseL2.Multiline = true;
             this.textBoxAdresseL2.Name = "textBoxAdresseL2";
@@ -152,7 +152,7 @@
             // 
             // textBoxCP
             // 
-            this.textBoxCP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
+            this.textBoxCP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBoxCP.Location = new System.Drawing.Point(194, 295);
             this.textBoxCP.Multiline = true;
             this.textBoxCP.Name = "textBoxCP";
@@ -202,7 +202,7 @@
             // 
             // textBoxVille
             // 
-            this.textBoxVille.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
+            this.textBoxVille.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBoxVille.Location = new System.Drawing.Point(194, 346);
             this.textBoxVille.Multiline = true;
             this.textBoxVille.Name = "textBoxVille";
@@ -212,7 +212,7 @@
             // 
             // textBoxTel
             // 
-            this.textBoxTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
+            this.textBoxTel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.textBoxTel.Location = new System.Drawing.Point(587, 159);
             this.textBoxTel.Multiline = true;
             this.textBoxTel.Name = "textBoxTel";
@@ -263,7 +263,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(145)))), ((int)(((byte)(26)))));
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1060, 503);
             this.Controls.Add(this.dateTimePickerDDN);
             this.Controls.Add(this.Telephone);

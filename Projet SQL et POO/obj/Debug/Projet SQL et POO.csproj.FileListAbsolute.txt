@@ -39,3 +39,19 @@ C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet 
 C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.pdb
 C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet SQL et POO\bin\Debug\MySql.Data.dll
 C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet SQL et POO\bin\Debug\MySql.Data.xml
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\bin\Debug\Projet SQL et POO.exe.config
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\bin\Debug\Projet SQL et POO.exe
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\bin\Debug\Projet SQL et POO.pdb
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\bin\Debug\MySql.Data.dll
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\bin\Debug\MySql.Data.xml
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.csprojResolveAssemblyReference.cache
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet_SQL_et_POO.Application_Services.resources
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet_SQL_et_POO.Diplomes.resources
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet_SQL_et_POO.Formulaire.resources
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet_SQL_et_POO.Modifier.resources
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet_SQL_et_POO.Properties.Resources.resources
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet_SQL_et_POO.Services.resources
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.csproj.GenerateResource.Cache
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.csproj.CoreCompileInputs.cache
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.exe
+C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.pdb
