@@ -50,6 +50,7 @@
             this.Telephone = new System.Windows.Forms.Label();
             this.dateTimePickerDDN = new System.Windows.Forms.DateTimePicker();
             this.serviceTableAdapter = new Projet_SQL_et_POO._ProjetC_DataSetTableAdapters.ServiceTableAdapter();
+            this.LblTitreAjout = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.serviceBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._ProjetC_DataSet)).BeginInit();
             this.SuspendLayout();
@@ -259,12 +260,23 @@
             // 
             this.serviceTableAdapter.ClearBeforeFill = true;
             // 
+            // LblTitreAjout
+            // 
+            this.LblTitreAjout.AutoSize = true;
+            this.LblTitreAjout.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTitreAjout.Location = new System.Drawing.Point(395, 37);
+            this.LblTitreAjout.Name = "LblTitreAjout";
+            this.LblTitreAjout.Size = new System.Drawing.Size(208, 24);
+            this.LblTitreAjout.TabIndex = 38;
+            this.LblTitreAjout.Text = "Ajout d\'un employé";
+            // 
             // Formulaire
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1060, 503);
+            this.Controls.Add(this.LblTitreAjout);
             this.Controls.Add(this.dateTimePickerDDN);
             this.Controls.Add(this.Telephone);
             this.Controls.Add(this.Date_De_Naissance);
@@ -316,5 +328,6 @@
         private _ProjetC_DataSet _ProjetC_DataSet;
         private System.Windows.Forms.BindingSource serviceBindingSource;
         private _ProjetC_DataSetTableAdapters.ServiceTableAdapter serviceTableAdapter;
+        private System.Windows.Forms.Label LblTitreAjout;
     }
 }

@@ -51,7 +51,6 @@
             this.employeTableAdapter = new Projet_SQL_et_POO._ProjetC_DataSetTableAdapters.EmployeTableAdapter();
             this.serviceBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.serviceTableAdapter = new Projet_SQL_et_POO._ProjetC_DataSetTableAdapters.ServiceTableAdapter();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._ProjetC_DataSet)).BeginInit();
@@ -61,7 +60,7 @@
             // 
             // Ajouter
             // 
-            this.Ajouter.BackColor = System.Drawing.Color.Gray;
+            this.Ajouter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.Ajouter.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Ajouter.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Ajouter.FlatAppearance.BorderSize = 2;
@@ -78,7 +77,7 @@
             // 
             // Modifier
             // 
-            this.Modifier.BackColor = System.Drawing.Color.Gray;
+            this.Modifier.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.Modifier.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Modifier.FlatAppearance.BorderSize = 2;
             this.Modifier.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
@@ -93,7 +92,7 @@
             // 
             // Quitter
             // 
-            this.Quitter.BackColor = System.Drawing.Color.Gray;
+            this.Quitter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.Quitter.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.Quitter.FlatAppearance.BorderSize = 2;
             this.Quitter.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
@@ -108,7 +107,7 @@
             // 
             // dataGridView
             // 
-            this.dataGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(32)))), ((int)(((byte)(53)))));
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IDEmploye,
@@ -194,7 +193,7 @@
             // 
             // Diplomes
             // 
-            this.Diplomes.BackColor = System.Drawing.Color.Gray;
+            this.Diplomes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.Diplomes.Location = new System.Drawing.Point(12, 101);
             this.Diplomes.Name = "Diplomes";
             this.Diplomes.Size = new System.Drawing.Size(197, 34);
@@ -205,7 +204,7 @@
             // 
             // Services
             // 
-            this.Services.BackColor = System.Drawing.Color.Gray;
+            this.Services.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
             this.Services.Location = new System.Drawing.Point(12, 141);
             this.Services.Name = "Services";
             this.Services.Size = new System.Drawing.Size(197, 34);
@@ -236,25 +235,14 @@
             // 
             this.serviceTableAdapter.ClearBeforeFill = true;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Gray;
-            this.button1.Location = new System.Drawing.Point(672, 219);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // Application_Services
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.Silver;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(138)))), ((int)(((byte)(168)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1482, 753);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.Services);
             this.Controls.Add(this.Diplomes);
             this.Controls.Add(this.dataGridView);
@@ -301,7 +289,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn CPEmploye;
         private System.Windows.Forms.DataGridViewTextBoxColumn VilleEmploye;
         private System.Windows.Forms.DataGridViewTextBoxColumn TelephoneEmploye;
-		private System.Windows.Forms.Button button1;
 	}
 }
 

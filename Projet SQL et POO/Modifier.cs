@@ -16,20 +16,9 @@ namespace Projet_SQL_et_POO
         {
             InitializeComponent();
         }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void Modifier_Load(object sender, EventArgs e)
         {
 
         }
-
-        private void Valider_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-		private void Nouveau_service_SelectedIndexChanged(object sender, EventArgs e)
-		{
-
-		}
-	}
+    }
 }
