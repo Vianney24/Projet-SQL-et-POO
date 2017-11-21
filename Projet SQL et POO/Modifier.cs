@@ -20,5 +20,10 @@ namespace Projet_SQL_et_POO
         {
 
         }
+
+        private void BtnAnnuler_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
