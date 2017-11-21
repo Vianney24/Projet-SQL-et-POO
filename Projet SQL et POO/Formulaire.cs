@@ -115,5 +115,54 @@ namespace Projet_SQL_et_POO
             Close();
         }
         #endregion
+
+        #region TextBox
+        private void textBoxNom_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void textBoxPrenom_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void textBoxAdresseL1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void textBoxAdresseL2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void textBoxCP_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void textBoxVille_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void textBoxTel_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+
+        private void dateTimePickerDDN_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

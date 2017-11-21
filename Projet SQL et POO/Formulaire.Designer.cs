@@ -50,7 +50,6 @@
             this.Telephone = new System.Windows.Forms.Label();
             this.dateTimePickerDDN = new System.Windows.Forms.DateTimePicker();
             this.serviceTableAdapter = new Projet_SQL_et_POO._ProjetC_DataSetTableAdapters.ServiceTableAdapter();
-            this.LblTitreAjouter = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.serviceBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._ProjetC_DataSet)).BeginInit();
             this.SuspendLayout();
@@ -63,6 +62,7 @@
             this.textBoxNom.Name = "textBoxNom";
             this.textBoxNom.Size = new System.Drawing.Size(219, 26);
             this.textBoxNom.TabIndex = 0;
+            this.textBoxNom.TextChanged += new System.EventHandler(this.textBoxNom_TextChanged);
             // 
             // label1
             // 
@@ -73,6 +73,7 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Nom";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -83,6 +84,7 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Prénom";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBoxPrenom
             // 
@@ -92,6 +94,7 @@
             this.textBoxPrenom.Name = "textBoxPrenom";
             this.textBoxPrenom.Size = new System.Drawing.Size(219, 26);
             this.textBoxPrenom.TabIndex = 3;
+            this.textBoxPrenom.TextChanged += new System.EventHandler(this.textBoxPrenom_TextChanged);
             // 
             // serviceBindingSource
             // 
@@ -106,22 +109,20 @@
             // Valider
             // 
             this.Valider.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(236)))), ((int)(((byte)(149)))));
-            this.Valider.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Valider.ForeColor = System.Drawing.Color.Black;
-            this.Valider.Location = new System.Drawing.Point(491, 445);
+            this.Valider.Location = new System.Drawing.Point(423, 445);
             this.Valider.Name = "Valider";
             this.Valider.Size = new System.Drawing.Size(190, 46);
             this.Valider.TabIndex = 5;
-            this.Valider.Text = "Ajouter";
+            this.Valider.Text = "Valider";
             this.Valider.UseVisualStyleBackColor = false;
             this.Valider.Click += new System.EventHandler(this.btnValider_Click);
             // 
             // Annuler
             // 
             this.Annuler.BackColor = System.Drawing.Color.Tomato;
-            this.Annuler.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Annuler.ForeColor = System.Drawing.Color.Black;
-            this.Annuler.Location = new System.Drawing.Point(376, 445);
+            this.Annuler.Location = new System.Drawing.Point(308, 445);
             this.Annuler.Name = "Annuler";
             this.Annuler.Size = new System.Drawing.Size(92, 46);
             this.Annuler.TabIndex = 6;
@@ -137,6 +138,7 @@
             this.textBoxAdresseL1.Name = "textBoxAdresseL1";
             this.textBoxAdresseL1.Size = new System.Drawing.Size(219, 26);
             this.textBoxAdresseL1.TabIndex = 7;
+            this.textBoxAdresseL1.TextChanged += new System.EventHandler(this.textBoxAdresseL1_TextChanged);
             // 
             // textBoxAdresseL2
             // 
@@ -146,6 +148,7 @@
             this.textBoxAdresseL2.Name = "textBoxAdresseL2";
             this.textBoxAdresseL2.Size = new System.Drawing.Size(219, 26);
             this.textBoxAdresseL2.TabIndex = 8;
+            this.textBoxAdresseL2.TextChanged += new System.EventHandler(this.textBoxAdresseL2_TextChanged);
             // 
             // textBoxCP
             // 
@@ -155,6 +158,7 @@
             this.textBoxCP.Name = "textBoxCP";
             this.textBoxCP.Size = new System.Drawing.Size(219, 26);
             this.textBoxCP.TabIndex = 9;
+            this.textBoxCP.TextChanged += new System.EventHandler(this.textBoxCP_TextChanged);
             // 
             // Adresse_l1
             // 
@@ -204,6 +208,7 @@
             this.textBoxVille.Name = "textBoxVille";
             this.textBoxVille.Size = new System.Drawing.Size(219, 26);
             this.textBoxVille.TabIndex = 14;
+            this.textBoxVille.TextChanged += new System.EventHandler(this.textBoxVille_TextChanged);
             // 
             // textBoxTel
             // 
@@ -213,6 +218,7 @@
             this.textBoxTel.Name = "textBoxTel";
             this.textBoxTel.Size = new System.Drawing.Size(260, 26);
             this.textBoxTel.TabIndex = 17;
+            this.textBoxTel.TextChanged += new System.EventHandler(this.textBoxTel_TextChanged);
             // 
             // Date_De_Naissance
             // 
@@ -223,6 +229,7 @@
             this.Date_De_Naissance.TabIndex = 18;
             this.Date_De_Naissance.Text = "Date de naissance";
             this.Date_De_Naissance.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Date_De_Naissance.Click += new System.EventHandler(this.label7_Click);
             // 
             // Telephone
             // 
@@ -246,20 +253,11 @@
             this.dateTimePickerDDN.Name = "dateTimePickerDDN";
             this.dateTimePickerDDN.Size = new System.Drawing.Size(260, 26);
             this.dateTimePickerDDN.TabIndex = 20;
+            this.dateTimePickerDDN.ValueChanged += new System.EventHandler(this.dateTimePickerDDN_ValueChanged);
             // 
             // serviceTableAdapter
             // 
             this.serviceTableAdapter.ClearBeforeFill = true;
-            // 
-            // LblTitreAjouter
-            // 
-            this.LblTitreAjouter.AutoSize = true;
-            this.LblTitreAjouter.Font = new System.Drawing.Font("Montserrat", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTitreAjouter.Location = new System.Drawing.Point(387, 38);
-            this.LblTitreAjouter.Name = "LblTitreAjouter";
-            this.LblTitreAjouter.Size = new System.Drawing.Size(252, 29);
-            this.LblTitreAjouter.TabIndex = 21;
-            this.LblTitreAjouter.Text = "Ajout d\'un employé";
             // 
             // Formulaire
             // 
@@ -267,7 +265,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(1060, 503);
-            this.Controls.Add(this.LblTitreAjouter);
             this.Controls.Add(this.dateTimePickerDDN);
             this.Controls.Add(this.Telephone);
             this.Controls.Add(this.Date_De_Naissance);
@@ -319,6 +316,5 @@
         private _ProjetC_DataSet _ProjetC_DataSet;
         private System.Windows.Forms.BindingSource serviceBindingSource;
         private _ProjetC_DataSetTableAdapters.ServiceTableAdapter serviceTableAdapter;
-        private System.Windows.Forms.Label LblTitreAjouter;
     }
 }

@@ -95,10 +95,5 @@ namespace Projet_SQL_et_POO
         {
             Close();
         }
-
-        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }
