@@ -56,6 +56,7 @@ C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-
 C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.exe
 C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet SQL et POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.pdb
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Flo\Documents\EPSI\B2\Projet c#\PrjFini\Projet-SQL-et-POO\Projet SQL et POO\bin\Debug\Projet SQL et POO.exe.config
 C:\Users\Flo\Documents\EPSI\B2\Projet c#\PrjFini\Projet-SQL-et-POO\Projet SQL et POO\bin\Debug\Projet SQL et POO.exe
 C:\Users\Flo\Documents\EPSI\B2\Projet c#\PrjFini\Projet-SQL-et-POO\Projet SQL et POO\bin\Debug\Projet SQL et POO.pdb
@@ -72,6 +73,8 @@ C:\Users\Flo\Documents\EPSI\B2\Projet c#\PrjFini\Projet-SQL-et-POO\Projet SQL et
 C:\Users\Flo\Documents\EPSI\B2\Projet c#\PrjFini\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.exe
 C:\Users\Flo\Documents\EPSI\B2\Projet c#\PrjFini\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.pdb
 =======
+=======
+>>>>>>> bc72f748af4c5ffd01308f8ef9a6320c5cfa9e90
 C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet-SQL-et-POO\Projet-SQL-et-POO\Projet SQL et POO\bin\Debug\Projet SQL et POO.exe.config
 C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet-SQL-et-POO\Projet-SQL-et-POO\Projet SQL et POO\bin\Debug\Projet SQL et POO.exe
 C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet-SQL-et-POO\Projet-SQL-et-POO\Projet SQL et POO\bin\Debug\Projet SQL et POO.pdb
@@ -88,4 +91,7 @@ C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet-SQL-et-POO\Projet-
 C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet-SQL-et-POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.csproj.CoreCompileInputs.cache
 C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet-SQL-et-POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.exe
 C:\Users\vianney\Documents\Visual Studio 2017\Projects\Projet-SQL-et-POO\Projet-SQL-et-POO\Projet SQL et POO\obj\Debug\Projet SQL et POO.pdb
+<<<<<<< HEAD
+>>>>>>> bc72f748af4c5ffd01308f8ef9a6320c5cfa9e90
+=======
 >>>>>>> bc72f748af4c5ffd01308f8ef9a6320c5cfa9e90

@@ -556,6 +556,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn CPEmploye;
         private System.Windows.Forms.DataGridViewTextBoxColumn VilleEmploye;
         private System.Windows.Forms.DataGridViewTextBoxColumn TelephoneEmploye;
+<<<<<<< HEAD
+>>>>>>> bc72f748af4c5ffd01308f8ef9a6320c5cfa9e90
+=======
 >>>>>>> bc72f748af4c5ffd01308f8ef9a6320c5cfa9e90
 	}
 }
